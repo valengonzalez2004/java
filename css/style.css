@@ -1,141 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    background-color: #454545;
-    color: #fefae0;
-    padding:  1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+.fondo{
+    background-image: url(../images/culturajpg.jpg);
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    padding: 1rem;
-    background-color: #454545;
-}
-
-a{
-    color: #fefae0 !important;
-}
-
-li{
-    list-style-type: none !important;
-}
-
-
-h2{
+h1{
+    color: #f1faee;
+    padding: 4rem;
+    font-size: 56px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1.2rem;
+    font-family: 'Rubik Iso', cursive;
 }
 
+button{
+    padding: 4rem;
+    font-size: 56px;
+    border-radius: 64%;
+    background-color: #faf0ca;
+    font-family: 'Rubik Iso', cursive;
+}
 
-p{
-    color: black;
+button:hover{
+    background-color: #e0fbfc;
+}
+
+.eleccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+footer{
+    background-color: #f7ede2;
     padding: 2rem;
 }
 
-.leche{
-    background-color: #ffb703;
-}
-
-/* SECTION */
-
-h3{
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.articulo1{
-    padding: 1rem;
-
-}
-
-.parrafo1{
-    color: black;
-    text-align: center;
-}
-
-.imagen1{
+footer h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.leche{
-    padding-top: 0rem;
-}
-
-
-.redes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1.5rem;
-    gap: 0.5rem
-}
-
-.redes:hover{
-    color: #454545;
-}
-
-
-footer {
-    background-color: #454545;
-    
-}
-
-.footerp{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-}
-
-@media (max-width: 430px){
-    
-    header{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 21px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    h3{
-        text-align: center;
-    }
-
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .texto2{
-        text-align: center;
-    }
-
-    .imagen1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 
 }
